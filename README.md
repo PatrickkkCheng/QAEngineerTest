@@ -46,6 +46,7 @@ Reasons:
 ```text
 pages/          Page Objects
 fixtures/       Shared fixtures
+reporters/      Custom console
 test-data/      Test data generation
 tests/e2e/      End-to-end scenarios
 playwright.config.ts
