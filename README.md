@@ -50,3 +50,16 @@ test-data/      Test data generation
 tests/e2e/      End-to-end scenarios
 playwright.config.ts
 ```
+
+## Quick start
+
+Install dependencies and browsers:
+
+```bash
+npm install
+npx playwright install
+npm test
+npm run test:headed   # see browser actions
+npm run test:ui       # interactive mode
+npm run report        # view last HTML report
+```
