@@ -58,6 +58,11 @@ Install dependencies and browsers:
 ```bash
 npm install
 npx playwright install
+```
+
+Run test:
+
+```bash
 npm test
 npm run test:headed   # see browser actions
 npm run test:ui       # interactive mode
